@@ -1,0 +1,34 @@
+————————————————————————————————-----
+   Name: Zhiyuan Lu
+   ID: 1579058
+   CMPUT 274, Fall 2018
+
+   Weekly Exercise #4: Text Preprocessor
+-------------------------------------
+
+Included Files:
+    * preprocess.py
+    * README
+
+Running Instructions:
+    1. Open the terminal, find the directory of preprocess.py
+    2. Run the program, by typing python3 preprocess.py <mode>
+    3. Input any text.
+
+    The output will remove all the punctuations, numbers(would not remove if a token consists only numbers)
+    and stopwords.
+
+    * <mode> is an optional command.
+    If the user does not enter anything, the program would remove
+    all the elements above.
+    If the user enters the mode <keep-digits>, all numbers would be kept, the punctuations and stopwords
+    would be removed.
+    If the user enters the mode <keep-stops>, all stopwords would be kept, the punctuations and numbers
+    would be removed.
+    If the user enters the mode <keep-symbols>, all punctuations would be kept, the numbers and stopwords
+    would be removed.
+    If the user enters invalid mode, an error message would be shown in the terminal.
+
+Notes and Assumptions:
+    1. could not input more than one mode
+    2. the input text needs to be string.

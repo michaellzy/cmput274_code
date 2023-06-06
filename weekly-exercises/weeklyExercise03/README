@@ -1,0 +1,27 @@
+————————————————————————————————-----
+   Name: Zhiyuan Lu
+   ID: 1579058
+   CMPUT 274, Fall 2018
+
+   Weekly Exercise #3: Word Frequency
+-------------------------------------
+
+Included Files:
+    * freq.py
+    * README
+
+Running Instructions:
+    1. Open the terminal, find the directory of freq.py and input text file
+    2. Run the program, by typing python3 freq.py <input_file_name>
+
+    If the user types more or less command-line arguments, an error message
+    will be shown in the terminal.
+    A new plain text file <input_file_name.out> would add to the program's directory
+
+Notes and Assumptions:
+    1. the input text should be plain text file and in the same directory as the freq.py
+    2. can not be empty text file
+
+Additional Feature:
+    If the input file does not exist, an error message would
+    show in the terminal: File Error:[Error 2] No such file or directory: <input file name>

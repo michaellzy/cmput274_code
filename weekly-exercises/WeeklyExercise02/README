@@ -1,0 +1,24 @@
+Name: Zhiyuan Lu
+ID #: 1579050
+CMPUT 274 Fa18
+
+Weekly Exercise #2: Unfair Dice
+
+Include Files:
+    * unfairDice.py
+    * README
+
+Running Instructions:
+    When running the program unfairDice.py, the user would see a sample test result
+    which is a 6-sided unfair die rolls for 20 times. Each value on the side of the
+    dice(1 to 6) has the probability of 1/2, 1/4, 1/3, 1/12, 1/12, 1/6 respectively to
+    be rolled.
+
+    The list shows the number on the side of the dice when the dice is rolled each time.
+    In this sample, 20 numbers will be displayed
+
+    The histogram displays the time of each number(1-6, in this sample) appears.
+Notes and Assumptions:
+    The program assumes that the die will always have at least 2 sides
+    (m >= 2, if m <= 1, a semantic error will occur. Ex. if m == 1, ZeroDivisionError will occur)
+
